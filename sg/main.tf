@@ -23,6 +23,5 @@ resource "aws_security_group" "webtraffic" {
     to_port = 443
     protocol = "TCP"
     cidr_blocks = ["0.0.0.0/0"]
-
   }
 }
